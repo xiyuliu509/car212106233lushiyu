@@ -5,7 +5,12 @@ python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weigh
 ```
 测试文件夹imgs，结果保存再 result 文件夹中
 
-视频测试demo  [2.MP4](https://pan.baidu.com/s/1O1sT8hCEwJZmVScDwBHgOg)  提取码：41aq
+视频测试demo  [2.MP4]
+
+素材与labelme：
+链接：https://pan.baidu.com/s/1LZHrsfyvJyX3AFj9uazqdQ?pwd=nnj3 
+提取码：nnj3 
+--来自百度网盘超级会员V7的分享
 
 ```
 python detect_plate.py --detect_model weights/plate_detect.pt  --rec_model weights/plate_rec_color.pth --video 2.mp4
